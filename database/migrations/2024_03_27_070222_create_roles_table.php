@@ -12,6 +12,13 @@ return new class extends Migration
      */
     public function up(): void
     {
+//         Schema::disableForeignKeyConstraints();
+
+// // Truncate the table
+// DB::table('roles')->truncate();
+
+// Schema::enableForeignKeyConstraints();
+
         Schema::create('roles', function (Blueprint $table) {
             $table->id();
             $table->string('name');

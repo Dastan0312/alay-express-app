@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('feedback', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->string('body');
+            $table->string('user_name');
+            $table->string('email');
+            $table->string('status')->default(0);
+            $table->string('file')->nullable();
             $table->timestamps();
         });
     }
