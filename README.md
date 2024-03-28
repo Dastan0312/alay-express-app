@@ -61,7 +61,7 @@ This command will start processing queued jobs.
 
 To access the admin dashboard, use the following credentials:
 
-- **Email:** admin@gmail.com
+- **Email:** admin@example.com
 - **Password:** admin123
 
 You can use these credentials to log in as an administrator and access privileged functionalities within the application.
